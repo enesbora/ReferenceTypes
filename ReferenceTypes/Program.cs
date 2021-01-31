@@ -26,6 +26,10 @@ namespace ReferenceTypes
 
             Console.WriteLine("sayilar1[0] = " + sayilar1[0]);
 
+            Person person = new Person();
+            Customer customer = new Customer();
+            Employee employee = new Employee();
+
         }
     }
 
