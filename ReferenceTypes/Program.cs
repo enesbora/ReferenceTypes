@@ -23,6 +23,7 @@ namespace ReferenceTypes
             sayilar2[0] = 1000;
 
             Console.WriteLine("sayilar1[0] = " + sayilar1[0]);
+
         }
     }
 }
