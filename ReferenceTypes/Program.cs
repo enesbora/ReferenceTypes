@@ -28,4 +28,21 @@ namespace ReferenceTypes
 
         }
     }
+
+    class Person
+    {
+        public int Id { get; set; }
+        public string FirtstName { get; set; }
+        public string LastName { get; set; }
+    }
+
+    class Customer:Person
+    {
+        public string CreditCardNumber { get; set; }
+    }
+
+    class Employee:Person
+    {
+        public int EmployeeNumber { get; set; }
+    }
 }
